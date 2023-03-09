@@ -1,0 +1,23 @@
+{
+  "name": "placas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js localhost 3001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "express-jwt": "^8.3.0",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
+}
